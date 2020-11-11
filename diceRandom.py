@@ -10,6 +10,7 @@ def dice():
 def ini():
     start = input('Gostaria de jogar o dado? sim/nao')
 
+#condição para repetição
     while start in listTrue:
         print('Resultado:', str(dice()))
         start = input("Gostaria de jogar novamente? sim/nao")
